@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">  <!--menu icon-->
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+    </nav>
+
+    <!--side navbar-->
+
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        
+    </div>
+
+    <!--product-->
+    <div class="product-section">
+        <form class="product-search"> <!--search-->
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+
+            <div class="products-box">
+                <img src="Images/nimble-made-GDebkNryTd4-unsplash.jpg" style="height: 200px; width: 200px" alt="">
+                <p>White Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="Images/benjamin-voros-TnNo84AJJ5A-unsplash.jpg" style="height: 200px; width: 200px" alt="">
+                <p>Denim Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="Images/blackshirt.jpg" style="height: 200px; width: 200px" alt="">
+                <p>Black Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="Images/printed shirt.webp" style="height: 200px; width: 200px" alt="">
+                <p>Printed Shirt</p>
+            </div>
+
+            <div class="products-box">
+                <img src="Images/tshirt.webp" style="height: 200px; width: 200px" alt="">
+                <p>T shirts</p>
+            </div>
+
+            <div class="products-box">
+                <img src="Images/SHREY_CONCRETE_SHIRT_SS_2102_TEAL_5_HD_HSUqNGcwkQ.webp" style="height: 200px; width: 200px" alt="">
+                <p>Sports Wear</p>
+            </div>
+
+            <div class="products-box">
+                <img src="Images/SHORTS.jpeg" style="height: 200px; width: 200px" alt="">
+                <p>Shorts</p>
+            </div>
+
+            <div class="products-box">
+                <img src="Images/jeans.webp" style="height: 200px; width: 200px" alt="">
+                <p>Jeans</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique modi tempore suscipit fugit amet error!</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+
+        <p>@ 2024 Nostra.com</p>
+    </div>
+
+
+<script src="collections.js"></script>
+</body>
+
+</html>
